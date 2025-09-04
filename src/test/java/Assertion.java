@@ -59,9 +59,9 @@ public class Assertion {
         softAssert.assertEquals("Hello", "hello", "First assertion failed!");
         System.out.println("This will still execute.");
         softAssert.assertTrue(5 > 3, "Second assertion failed!");
-        System.out.println("This will also execute.");
+        
         softAssert.assertNotNull(new Object(), "Third assertion failed!");
-        System.out.println("This will execute as well.");
+        
         softAssert.assertAll(); // Collates all assertion results
     }
 
