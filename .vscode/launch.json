@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run TestNG Suite",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "not.used",
+      "preLaunchTask": "Run TestNG Suite"
+    }
+  ]
+}
