@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Selenium-Automation-Suite">
-    <test name="Automation-Tests">
+    <test name="TestNG-Assertion-Tests">
         <classes>
-            <class name="Assertion"/>
+            <class name="demo.testng.Assertion"/>
+            <class name="demo.testng.testngAnnotation"/>
         </classes>
     </test>
+
 </suite>
