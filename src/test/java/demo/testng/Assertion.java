@@ -7,7 +7,7 @@ import org.testng.SkipException;
 
 public class Assertion {
     
-    SoftAssert softAssert = new SoftAssert();
+    SoftAssert softAssert;
 
     @Test(priority = 1)
     public void testEquality() {
@@ -70,6 +70,7 @@ public class Assertion {
     }
     @Test(priority = 10)
     public void testSoftAssertions() {
+        softAssert = new SoftAssert();
         softAssert.assertEquals("Hello", "hello", "First assertion failed!");
         System.out.println("This will still execute.");
         softAssert.assertTrue(5 > 3, "Second assertion failed!");
